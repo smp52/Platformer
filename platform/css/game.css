@@ -1,0 +1,59 @@
+.background    { 
+background: #1488CC;
+background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+background: linear-gradient(to right, #2B32B2, #1488CC);
+table-layout: fixed;
+
+border-spacing: 0;   }
+.background td { 
+    padding: 0;
+    align-content: center;}
+.lava          { 
+    background: linear-gradient(315deg, transparent 75%, #d45d55 0)-10px 0,
+    linear-gradient(45deg, transparent 75%, #d45d55 0)-10px 0,
+    linear-gradient(135deg, #a7332b 50%, transparent 0) 0 0,
+    linear-gradient(45deg, #6a201b 50%, #561a16 0) 0 0 #561a16;
+    background-size: 20px 20px; }
+.wall          {
+background:
+linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+background-color: #131313;
+background-size: 20px 20px;}
+.cannon{ 
+    background: 
+    linear-gradient(45deg, #D99C0A 0%, #B2C80B 20%, #0BC84B 30%, #10B286 40%, #109BB2 45%, #300FC9 60%, #830FC9 70%, #BD12BD 80%, #E8112D 90%, #ED920D 100%);
+    background-color: #840b2a;
+    border-radius: 50%;
+	width: 200px;
+    height: 200px;}
+.portal {background: rgb(0,0,0);}
+.actor  { position: absolute;  }
+.coin   { background: rgb(241, 229, 89); }
+.player { background: yellow; }
+.flag   { background: rgb(0, 150, 50);}
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 4, 4);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
+.Playerscore {
+				position: absolute;
+				top: 5px;
+				left: 480px;
+				color: #FF7F00;
+				font-family: Helvetica, sans-serif;
+				cursor: default;
+			}
